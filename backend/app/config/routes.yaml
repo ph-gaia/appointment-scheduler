@@ -1,0 +1,8 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+appointments:
+    resource: '../src/Controller/AppointmentsController.php'
+    type: annotation
