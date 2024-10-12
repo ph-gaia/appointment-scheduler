@@ -12,6 +12,12 @@ RUN apt-get update && apt-get install -y \
 
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
+COPY docker-entrypoint.sh /usr/local/bin/
+
 WORKDIR /var/www/html
 
-CMD php composer install && bin/console doctrine:migrations:migrate --no-interaction
+CMD php composer install
+
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh
+
+ENTRYPOINT ["docker-entrypoint.sh"]
