@@ -1,4 +1,4 @@
-Appointment Scheduler
+# Appointment Scheduler
 
 Este projeto é um sistema completo de agendamento de compromissos, com backend em Symfony e frontend em Next.js.
 
