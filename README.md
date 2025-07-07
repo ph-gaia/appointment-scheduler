@@ -1,5 +1,10 @@
-# Desafio técnico developer PHP+JS &middot; Onesight
-> Este projeto é um sistema de agendamento de compromissos desenvolvido com Symfony no backend e Next.js no frontend. A API fornece funcionalidades CRUD para gerenciar compromissos com múltiplas datas e horários, enquanto o frontend permite que os usuários criem, editem e visualizem esses compromissos em uma interface moderna.
+Appointment Scheduler
+
+Este projeto é um sistema completo de agendamento de compromissos, com backend em Symfony e frontend em Next.js.
+
+A API fornece operações completas (CRUD) para gerenciar compromissos com suporte a múltiplas datas e horários. Já o frontend oferece uma interface moderna onde os usuários podem criar, editar e visualizar seus agendamentos de forma intuitiva.
+
+> Este projeto foi originalmente desenvolvido como parte de um desafio técnico e aprimorado para compor meu portfólio.
 
 A infraestrutura do projeto é gerenciada por Docker, o que facilita a configuração de um ambiente consistente e pronto para uso.
 
@@ -40,9 +45,9 @@ Docker Compose: Orquestra os containers do projeto, incluindo PHP, Nginx e Maria
 ### Instalando
 **Clonando o repositório**
 ```shell
-$ git clone https://github.com/ph-gaia/onesight-challenge.git
+$ git clone https://github.com/ph-gaia/appointment-scheduler.git
 
-$ cd onesight-challenge
+$ cd appointment-scheduler
 ```
 **Inicie os containers Docker:**
 ```
